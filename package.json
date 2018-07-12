@@ -1,0 +1,27 @@
+{
+  "name": "weapp-ts",
+  "version": "1.0.0",
+  "description": "A code framework for weapp in typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paraself/weapp-ts.git"
+  },
+  "keywords": [
+    "weapp",
+    "typescript",
+    "ts"
+  ],
+  "author": "Yves Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paraself/weapp-ts/issues"
+  },
+  "homepage": "https://github.com/paraself/weapp-ts#readme",
+  "devDependencies": {
+    "typed-we-app": "^1.7.0-update.5"
+  }
+}
