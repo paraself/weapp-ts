@@ -1,5 +1,23 @@
-import { BaseApp } from './WeappClass'
+import * as _ from './plugins/lodash/index'
 
-export default class App extends BaseApp {
-  
+class WeappApp implements WeApp.AppParam {
+  onLaunch(info: WeApp.LaunchData) {
+    Promise.resolve().then(() => {
+      console.log('init')
+      console.log(_.camelCase('I Love PTE'))
+    })
+  }
+
+  onShow(info: WeApp.LaunchData) {
+
+  }
 }
+
+let app = new WeappApp()
+App(app)
+
+// const appParam: WeApp.AppParam = {
+//   onLaunch(info) {
+//   }
+// }
+
